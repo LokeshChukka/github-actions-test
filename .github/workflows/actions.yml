@@ -4,7 +4,7 @@ on: [push]
 
 jobs:  
   run-github-actions:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: list files
         run: |
@@ -12,7 +12,7 @@ jobs:
           ls
       - name: simple js script
         id: greet
-        uses: octocat/hello-world-javascript-action@v1.1
+        uses: actions/hello-world-javascript-action@v1.1
         with:
           who-to-greet: lokesh
       - name: log greeting time
