@@ -1,0 +1,19 @@
+name: lokesh
+age: 30
+address: "area: hyderabad"
+active: true
+key:
+    key: value
+    key2: 333
+    key3: 
+       key: value
+       key2: value2
+array: 
+    - item1
+    - item2
+    - item3
+    - { key: value, 
+        -key: value }
+longtext: >
+    dhJHDSAJFHDJBDNKJDJHAFJDASNAS
+    bskjgndskfjjgfdsjgfdskjngkdfsn
